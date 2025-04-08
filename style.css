@@ -1,0 +1,287 @@
+html {
+    scroll-behavior: smooth;
+  }  
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: #fff;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Helvetica Condensed', sans-serif;
+    margin: 0 0 10px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  .section-title {
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: -110px;
+  }
+  
+  .section-underline {
+    height: 3px;
+    background-color: rgb(43, 65, 46);
+    width: 110%;
+    margin-left: -110px;
+    margin-bottom: 60px;
+  }
+  
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .top-nav {
+    display: flex;
+    gap: 20px;
+    font-family: 'Helvetica-bold', sans-serif;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.2s ease;
+  }
+  
+  .top-nav a:hover {
+    color: #666;
+  }
+
+  .sofiia-banner {
+    position: relative;
+    width: 500px;
+    height: 80px;
+    background-color: rgb(43, 65, 46);
+    transform: skewX(-30deg);
+    margin-left: -80px;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  
+  .sofiia-banner span {
+    position: absolute;
+    top: 50%;
+    left: 140px;
+    transform: skewX(30deg) translateY(-50%);
+    font-size: 28px;
+    color: white;
+    font-family: 'Helvetica-bold', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  
+  .sofiia-line {
+    height: 3px;
+    background-color: rgb(43, 65, 46);
+    width: 100%;
+    margin-left: auto;
+    margin-bottom: 60px;
+  }
+  
+  .font-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-bottom: 60px;
+  }
+  
+  .font-block {
+    flex: 1;
+    padding-inline-start: 5rem;
+  }
+
+  .font-block h3 {
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .font-block p {
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .code-sample {
+    background: #000;
+    color: #adff2f;
+    padding: 6px 10px;
+    margin-top: 0px;
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 14px;
+    width: fit-content;
+  }
+  
+  .headline-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-bottom: 40px;
+  }
+  
+  .headline-block {
+    flex: 1;
+  }
+
+  .text-image-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .text-image-block {
+    flex: 1;
+  }
+  
+  .text-image-img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .text-image-block h3 {
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .text-image-block h4 {
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .text-image-block p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .color-swatches {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .color-box {
+    text-align: center;
+    font-family: 'Helvetica-bold', sans-serif;
+  }
+  
+  .swatch {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .swatch-label {
+    font-size: 14px;
+    color: #000;
+  }
+
+  .link-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5rem;
+  }
+
+  .link-list a {
+    font-family: 'Helvetica-bold', sans-serif;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .link-list a:hover {
+    color: #555;
+    text-decoration: underline;
+  }
+
+  .widget-buttons {
+    display: flex;
+    gap: 20px;
+    padding-left: 5rem;
+    margin-top: 20px;
+  }
+
+  .btn-primary:hover,
+  .btn-secondary:hover,
+  .btn-outline:hover {
+    opacity: 0.5;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-family: 'Helvetica-bold', sans-serif;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: rgb(225, 172, 25);
+    color: rgb(14, 23, 15);
+  }
+
+  .btn-secondary {
+    background-color: rgb(43, 65, 46);
+    color:  rgb(223, 226, 214);
+  }
+
+  .btn-outline {
+    background-color: transparent;
+    border: 2px solid rgb(43, 65, 46);
+    color: rgb(43, 65, 46);
+  }
+
+  .widget-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 5rem;
+    margin-top: 20px;
+  }
+
+  .widget-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 14px;
+  }
+
+  .widget-card {
+    width: 300px;
+    border: 2px solid rgb(43, 65, 46);
+    padding: 20px;
+    margin-left: 5rem;
+    margin-top: 20px;
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(223, 226, 214);
+    color: rgb(14, 23, 15);
+  }
