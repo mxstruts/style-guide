@@ -1,0 +1,4 @@
+collections:
+  designs:
+    output: true
+    permalink: /designs/:name/
